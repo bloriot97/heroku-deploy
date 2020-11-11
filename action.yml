@@ -21,6 +21,10 @@ inputs:
   options:
     description: 'Optional build parameters'
     required: false
+  dockerfile_name:
+    description: 'Dockerfile name'
+    default: 'Dockerfile'
+    required: false
 branding:
   icon: package
   color: purple
